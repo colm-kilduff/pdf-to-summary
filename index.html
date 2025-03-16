@@ -5,6 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PDF to Summary</title>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        /* Inline styles for simplicity */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+            text-align: center;
+        }
+
+        header {
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            margin: 2rem auto;
+            max-width: 800px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin: 0;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        .description, .features {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin: 1rem auto;
+            max-width: 800px;
+        }
+
+        .description h2, .features h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .description p, .features ul {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .features ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .features ul li {
+            margin: 0.5rem 0;
+        }
+
+        footer {
+            margin-top: 2rem;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -13,18 +88,21 @@
     </header>
     <main>
         <section class="description">
-            <h2>How It Works</h2>
-            <p>Our application allows you to upload a PDF file, and it will generate a summary of the content, making it easier for you to grasp the main ideas without reading the entire document.</p>
+            <h2>What is PDF to Summary?</h2>
+            <p>PDF to Summary is a tool designed to save you time and effort by summarizing lengthy PDF documents into concise, easy-to-read summaries. Whether you're a student, professional, or just someone who wants to get to the point, this tool is for you!</p>
         </section>
-        <section class="upload">
-            <h2>Upload Your PDF</h2>
-            <input type="file" id="pdfUpload" accept=".pdf">
-            <button id="uploadButton">Generate Summary</button>
+        <section class="features">
+            <h2>Key Features</h2>
+            <ul>
+                <li>📄 Upload any PDF document.</li>
+                <li>⚡ Generate a summary that's approximately 10% of the original size.</li>
+                <li>🎯 Focus on the main ideas and key points.</li>
+                <li>🌟 Save time and improve productivity.</li>
+            </ul>
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 PDF to Summary. All rights reserved.</p>
+        <p>&copy; 2025 PDF to Summary. All rights reserved.</p>
     </footer>
-    <script src="assets/js/script.js"></script>
 </body>
 </html>

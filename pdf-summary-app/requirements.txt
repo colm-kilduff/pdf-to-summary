@@ -1,0 +1,6 @@
+Gradio
+PyPDF2
+requests
+Together
+python-dotenv==1.0.0
+PyCryptodome
